@@ -484,3 +484,70 @@ body {
 .reviews__desc {
     color: var(--white);
 }
+
+/* footer */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--black);
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: var(--white);
+}
+
+.footer__text {
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.footer__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title-img {
+    display: block;
+}
+
+.fotter__copyright {
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.footer__tel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: var(--white);
+}
+
+.footer__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
